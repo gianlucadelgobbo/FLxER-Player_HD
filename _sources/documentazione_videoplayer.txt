@@ -1,0 +1,118 @@
+
+<script type="text/javascript">
+$('document').ready(function () {
+    
+    /*  recupera la lista delle categorie */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerCategoryGet',
+        params : {
+            limit: 1000 // limita a 1000 (tutti) elementi
+        }
+    }];
+
+    /*  recupera  la lista dei contenuti in un canale e di una tipologia (video o foto) */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentGet',
+        params : {
+            category_id: 1, // id del canale
+            type_id: 1,  // 1 video, 2 foto
+            limit: 100 // limita a 100 contenuti
+        }
+    }];
+
+    /*  recupera  la lista dei contenuti di più canali e di una tipologia (video o foto) */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentGet',
+        params : {
+            category_id: [1, 2], // id del canale
+            type_id: 1,  // 1 video, 2 foto
+            limit: 100 // limita a 100 contenuti
+        }
+    }];
+
+    /*  recupera  un contenuto */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentGet',
+        params : {
+            id: 200 // id del contenuto
+        }
+    }];
+
+    /*  recupera  la lista dei commenti associati ad un contenuto */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentCommentGet',
+        params : {
+            content_id: 9589, // id del contenuto
+            limit: 100 // limita a 100 contenuti
+        }
+    }];
+
+
+    /*  recupera  le info di un utente */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerUserGet',
+        params : {
+            id: 1 // id dell'utente
+        }
+    }];
+
+    /*  Inserisci un commento. ritorna l'id del commento inserito */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentCommentAdd',
+        params : {
+            content_id: 1, // id del contenuto
+            comment: "Questo è un commento"
+        }
+    }];
+
+    /*  recupera  un determinato commento */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentCommentGet',
+        params : {
+            id: 3301 // id del commento
+        }
+    }];
+
+    /*  Vota un contenuto */
+    request = [{
+        name : 'return',
+        method : 'videoPlayerContentRatingAdd',
+        params : {
+            rating: 4, // voto 4 (da 1 a 5)
+            id: 1 // id del contenuto
+        }
+    }];
+
+    /*  live feed share */
+    request = [{
+        name : 'return',
+        method : 'livefeed_add',
+        params : {
+            type_id: 8, // fisso a 8
+            extra: null, // fisso a null
+            extra_id: 3 // id del contenuto
+        }
+    }];
+
+    $.ajax({
+        type: 'POST',
+        url: '/_ajax.php',
+        processData: false,
+        data: $.toJSON(request),
+        dataType: 'json',
+        success: function(json) {
+            console.log(json);
+        }
+    });
+
+});
+
+</script>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlists minDate="1-1-2010" maxDate="31-1-2010" >
+	<lib m="NUOVI" val="http://www.juventusmember.com/exclusive-player-playlist.php?type=new" />
+	<lib m="FEATURED" val="http://www.juventusmember.com/exclusive-player-playlist.php?type=featured" />
+	<lib m="CANALI">
+		<item>
+			<img>http://www.juventusmember.com/playlists/juve_news.png</img>
+			<title>New</title>
+			<price>s</price>
+			<link>http://www.juventusmember.com/exclusive-player-playlist.php?type=hd_news</link>
+		</item>
+		<item>
+			<img>http://www.juventusmember.com/playlists/juve_eventi.png</img>
+			<title>Event</title>
+			<price>i</price>
+			<link>http://www.juventusmember.com/exclusive-player-playlist.php?type=hd_eventi</link>
+		</item>
+		<item>
+			<img>http://www.juventusmember.com/playlists/juve_remember.png</img>
+			<title>Re-Membe</title>
+			<price>r</price>
+			<link>http://www.juventusmember.com/exclusive-player-playlist.php?type=hd_remember</link>
+		</item>
+		<item>
+			<img>http://www.juventusmember.com/playlists/juve_highlights.png</img>
+			<title>Highlight</title>
+			<price>s</price>
+			<link>http://www.juventusmember.com/exclusive-player-playlist.php?type=hd_highlights</link>
+		</item>
+	</lib>
+</playlists>

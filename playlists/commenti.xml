@@ -1,0 +1,48 @@
+<root>
+	<user post="commentsPost.php?UserId=100&postId=100">
+		<userIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></userIco>
+	</user>
+	<post>
+		<label>Scrivi un commento</label>
+		<tit>6 commenti a Forza Roma</tit>
+		<txt>FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+	</post>
+	<comments>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+		<item>
+			<author><a href="http://www.flxer.net">Gianluca</a></author>
+			<authorIco><img src="http://www.flxer.net/warehouse/_flxer/avatar/small/avatar_963.jpg" /></authorIco>
+			<date>20 novembre 2009</date>
+			<txt>1 FLxER Team was born in 2001 around the developing of FLxER software born from the idea of using a computer in order to realise a live video performance, similarly to what was already happening in the electronic music production/performance.</txt>
+		</item>
+	</comments>
+</root>
